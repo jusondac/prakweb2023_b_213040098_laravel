@@ -5,5 +5,5 @@
 <p>By. Rejka Permana in <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
 {{-- {{ $post->body }} --}}
 {!! $post->body !!}
-<a href="/blog">Back to posts</a>
+<a href="/blog" class="d-block mt-3">Back to posts</a>
 @endsection
